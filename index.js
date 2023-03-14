@@ -100,4 +100,3 @@ const stored_doc = () => {
 
 
 stored_doc()
-
