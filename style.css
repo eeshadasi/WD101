@@ -4,7 +4,7 @@ body {
     background-color: rgb(225, 217, 217);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.container{
+.cont{
     position: absolute;
     margin-top: 30px;
     margin-left:460px;
@@ -89,7 +89,7 @@ button {
     margin-top: 20px;
     
 }
-.user-history {
+.history_of_user {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,7 +102,7 @@ button {
    
 }
 
-.user-history>h1 {
+.history_of_user>h1 {
     font-size: 2rem;
     font-weight: 600;
     margin-top: 600px;
