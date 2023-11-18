@@ -1,39 +1,47 @@
-<html>
+<html lang="en">
 <head>
     <title>Form Registration</title>
     <link rel="stylesheet" href="style.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
-    <div class="cont">
+    <div class="container">
+        <form id="form">
             <h1>Registration Form</h1>
-                <div class="input">
-                <label for="name">Name</label>
-                <input required type="text" name="name" id="name" placeholder="Enter name person "/>
-                <label for="email">Email</label>
-                <input required type="text" name="email" id="email" placeholder="Enter the email" />
+            <div class="data">
+                <div>
+                    <label for="name">Name</label>
+                    <input required type="text" name="name" id="name" placeholder="Enter name person "/>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input required type="email" name="email" id="email" placeholder="Enter the email" />
+                </div>
+                <div>
                 <label for="password">Password</label>
                 <input required type="password" name="password" id="password" placeholder="Enter the password"/>
-                <label for="dobuuu">Date of Birth</label>
-                <input required type="date" name="dob" id="dob"/>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input required type="date" name="dob" id="dob"/>
+                </div>
             </div>
-            <div class="eesha">
+            <div class="terms">
                 <input type="checkbox" name="acceptTerms" id="acceptTerms"/>
                 <label for="acceptTerms">Accept Terms & Conditions</label>
             </div>
-
-            <div class="subut1">
+            <div class="submit">
                 <button id="submit" type="submit">Submit</button>
             </div>
         </form>
     </div>
-    <div class="history_of_user">
+    <div class="userTableContainer">
         <h1>Entries</h1>
-        <table id="dat" class="history">
+        <table id="userTable">
             <tr>
                 <th>Name</th>
                 <th>Email</th>
- 
                 <th>Password</th>
                 <th>Dob</th>
                 <th>Accepted terms?</th>
